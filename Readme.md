@@ -30,6 +30,7 @@ Corrales Quintero Erick Roberto - 23211004
 Herrera Aguilar José Manuel - 20212410
 Arenas Herrera Josue - 22210282
 Garcia Bagnis Diego Samuel - 20211778
+Lua Velasco Alexis - 20211802
   </p>
 
 </pre>
