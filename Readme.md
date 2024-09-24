@@ -262,14 +262,14 @@ enviar_solicitud(Operacion, A, B) ->
     % Imprime en la consola un mensaje indicando el tipo de operación y los operandos.
 
     Nodo = case Operacion of
-        suma -> {nodo_suma, 'nodo_suma@DESKTOP-EHRMQP1'};
-        % Si la operación es suma, el nodo de destino es 'nodo_suma@DESKTOP-EHRMQP1'.
-        resta -> {nodo_resta, 'nodo_resta@DESKTOP-EHRMQP1'};
-        % Si la operación es resta, el nodo de destino es 'nodo_resta@DESKTOP-EHRMQP1'.
-        multiplicacion -> {nodo_multiplicacion, 'nodo_multiplicacion@DESKTOP-EHRMQP1'};
-        % Si la operación es multiplicación, el nodo de destino es 'nodo_multiplicacion@DESKTOP-EHRMQP1'.
-        division -> {nodo_division, 'nodo_division@DESKTOP-EHRMQP1'}
-        % Si la operación es división, el nodo de destino es 'nodo_division@DESKTOP-EHRMQP1'.
+        suma -> {nodo_suma, 'nodo_suma@ip-172-31-86-126'};
+        % Si la operación es suma, el nodo de destino es 'nodo_suma@ip-172-31-86-12'.
+        resta -> {nodo_resta, 'nodo_resta@ip-172-31-86-12'};
+        % Si la operación es resta, el nodo de destino es 'nodo_resta@ip-172-31-86-12'.
+        multiplicacion -> {nodo_multiplicacion, 'nodo_multiplicacion@ip-172-31-86-12'};
+        % Si la operación es multiplicación, el nodo de destino es 'nodo_multiplicacion@ip-172-31-86-12'.
+        division -> {nodo_division, 'nodo_division@ip-172-31-86-12'}
+        % Si la operación es división, el nodo de destino es 'nodo_division@ip-172-31-86-12'.
     end,
 
     % Envia el mensaje de operación al nodo especificado.
@@ -296,4 +296,30 @@ recibir_respuesta() ->
             % Imprime un mensaje indicando que no se recibió respuesta a tiempo.
     end.
 ```
+# Implementación
+
+## Links a Asciinema
+
+### Nodo Suma
+
+https://asciinema.org/a/vBKMfnRxHSclt180Vly3KLLbR
+
+### Nodo Resta
+
+https://asciinema.org/a/FKoAVLtrC2nTeTm6MZy5i4Ore
+
+### Nodo Multiplicación
+
+https://asciinema.org/a/4gu9mEldPzeesuMjSfBMaHqy9
+
+### Nodo Division
+
+https://asciinema.org/a/IQvW1wSo4alecX3X5mX5LzFPX
+
+### Calculadora
+
+https://asciinema.org/a/BnqvDnT5KgaEY1crI3nATH8ec
+
+
+
 
